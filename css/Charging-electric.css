@@ -1,0 +1,741 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+/*---------------------start hider----------------------------*/
+.king
+{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    border-top: 0px;
+    z-index: 100;
+    background: white;
+    box-shadow:0px .5px 4px gray;
+}
+.king .inking1
+{
+    background: white;
+    width: 9.5%;
+    height: 100px;
+    float: left;
+}
+.toprightking
+{
+    width: 90%;
+    height: 49px;
+    float: right;
+    border-bottom: gray 1.9px solid;
+    background: white;
+}
+.toprightking .i1
+{
+    font-size: 15px;
+    margin-top: 17px;
+    margin-left: 3px;
+}
+.toprightking .i2
+{
+    font-size: 15px;
+    margin-top: 17px;
+    margin-left: 3px;
+    color: #006699;
+}
+.flag
+{
+    color: #006699;
+    margin-left: 500px;
+}
+.divv
+{
+    width: 90.5%;
+    height: 49px;
+    display: inline-block;
+    
+    position: relative;
+    background: white;
+}
+.divv > ul
+{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    list-style-type: none;
+}
+.divv > ul > li
+{
+    float: left;
+}
+.item
+{
+    display: inline-block;
+    padding: 13px 18px;
+    height: 23px;
+    line-height: 23px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+.item:focus
+{
+    color: #006699;
+}
+.item a
+{
+    text-decoration: none;
+    color: black;
+}
+.item a:hover
+{
+    color: #006699;
+}
+
+.sub-content
+{
+    position: absolute;
+    padding-top: 60px;
+    overflow: hidden;
+    width: 100%;
+    visibility: hidden;
+    
+    background: white;
+}
+.sub-content .suub
+{
+    float: right;
+    width: 68%;
+    height: 290px;
+    border-left:1px solid gray;
+}
+.sub-content .itemm
+{
+    width: 30%;
+    padding: 10px;
+    
+}
+.itemm:hover
+{
+    background: #006699;
+}
+.sub-content a
+{
+    color: black;
+    text-decoration: none;
+}
+.sub-content a:hover
+{
+    color: white;
+}
+.exit
+{
+    float: right;
+    color: #006699;
+    margin-right: 7px;
+    font-size: 25px;
+}
+.exit:hover
+{
+    color: #72c8f1;
+}
+.shm
+{
+    margin-left: 265px;
+    color: #006699;
+    font-size: 19px;
+}
+.shm:hover
+{
+    color: #72c8f1;
+}
+.kgdwal
+{
+    float: right;
+    border-left: 1px solid gray;
+    margin-right: 380px;
+    width: 35%;
+    height: 100%;
+    text-decoration: none;
+    overflow: hidden;
+    display: none;
+}
+.sub-content .gdwal
+{
+    width: 100%;
+    padding: 10px;
+    padding-left: 10px;
+}
+.gdwal:hover
+{
+    background: #006699;
+}
+/*---------------------finish hider----------------------------*/
+.body1
+{
+    width: 100%;
+    height: 410px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+64,7db9e8+100 */
+background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 64%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 64%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 64%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.diviconexit
+{
+    width: 100%;
+    height: 20px;
+}
+.diviconexit .exit
+{
+    float: right;
+    color: #006699;
+    margin-right: 7px;
+    font-size: 20px;
+}
+.exit:hover
+{
+    color: #72c8f1;
+}
+.body1 .leftbody1
+{
+    width: 54.5%;
+    height: 390px;
+    float: left;
+}
+.leftbody1 > h1
+{
+    margin-left: 15px;
+    color: white;
+}
+.leftbody1 > h3
+{
+    margin-left: 15px;
+    color: white;
+}
+.leftbody1 > h3 > a
+{
+    color: white;
+}
+a:hover
+{text-decoration: none;}
+.body1 .rightbody1
+{
+    width: 45%;
+    height: 390px;
+    float: right;
+}
+.rightbody1 > h2
+{
+    color: white;
+}
+.rightbody1 > h3 > a
+{
+    color: white;
+}
+a:hover
+{text-decoration: none;}
+/*---------------------finish body1----------------------------*/
+.body2
+{
+    width: 100%;
+    height: 150px;
+    background: white;
+}
+.body2 .text
+{
+    font-size: 30pt;
+}
+.body2 .link
+{
+    text-decoration: none;
+    color: black;
+}
+.link:hover
+{color: #006699;}
+.body2 .link2
+{
+    text-decoration: none;
+    color: black;
+    margin-left: 32px;
+}
+.link2:hover
+{color: #006699;}
+.body2 .shmbody1
+{
+    position: absolute;
+    font-size: 15pt;
+    margin-left: 15px;
+    color: gray;
+}
+/*------------------------------------------------Finsh body2-------------------------------------*/
+.body3
+{
+    width: 100%;
+    height: 1600px;
+    background: #e5e5e5;
+}
+.body3 .topcenter
+{
+    width: 100%;
+    height: 710px;
+    background: #72c8f1;
+}
+.topcenter .toptop1
+{
+    width: 100%;
+    height: 260px;
+}
+.toptop1 > h2
+{
+    margin-left: 15px;
+    font-size: 18pt;
+}
+.toptop1 > h3
+{
+    margin-left: 15px;
+    font-size: 14pt;
+}
+.toptop1 > b
+{
+    margin-left: 15px;
+    font-size: 14pt;
+}
+.toptop1 > p
+{
+    margin-left: 15px;
+}
+.topcenter .toptop2
+{
+    width: 100%;
+    height: 170px;
+}
+.toptop2 > h2
+{
+    margin-left: 15px;
+    font-size: 18pt;
+}
+.toptop2 > h3
+{
+    margin-left: 15px;
+    font-size: 14pt;
+}
+.toptop2 > p
+{
+    margin-left: 15px;
+}
+.topcenter .toptop3
+{
+    width: 100%;
+    height: 110px;
+}
+.toptop3 > h3
+{
+    margin-left: 15px;
+    font-size: 14pt;
+}
+.toptop3 > p
+{
+    margin-left: 15px;
+}
+.toptop3 > p > a
+{
+    text-decoration: none;
+    color: #006699;
+}
+.toptop3 > p > a > i
+{
+    color: #006699;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+.topcenter .toptop4
+{
+    width: 100%;
+    height: 170px;
+}
+.toptop4 > h3
+{
+    margin-left: 15px;
+    font-size: 14pt;
+}
+.toptop4 > p
+{
+    margin-left: 15px;
+}
+.toptop4 > a > input
+{
+    margin-left: 15px;
+    background: #006699;
+    height: 25px;
+    width: 300px;
+    border: #006699 1px solid;
+    cursor: pointer;
+}
+.body3 .centercenter
+{
+    width: 100%;
+    height: 440px;
+    background: white;
+    display: flex;
+}
+.centercenter .leftcentercenter
+{
+    width: 70%;
+    height: 400px;
+    margin-top: 20px;
+    background: #006699;
+}
+.leftcentercenter > h2
+{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.leftcentercenter .table
+{
+    border: none;
+    margin-left: 15px;
+    width: 95%;
+    height: 300px;
+}
+.table .tr1
+{
+    border: 1px black solid;
+    width: 100%;
+    height: 59px;
+    background: #72c8f1;
+}
+.table .tr2
+{
+    border: 1px black solid;
+    width: 100%;
+    height: 59px;
+    background: white;
+}
+.table .tr3
+{
+    border: 1px black solid;
+    width: 100%;
+    height: 59px;
+    background: #e5e5e5;
+}
+.table .tr4
+{
+    border: 1px black solid;
+    width: 100%;
+    height: 59px;
+    background: white;
+}
+.table .tr5
+{
+    border: 1px black solid;
+    width: 100%;
+    height: 59px;
+    background: #e5e5e5;
+}
+.leftcentercenter > p
+{
+    margin-left: 15px;
+    margin-top: 7.5px;
+}
+.centercenter .rightcentercenter
+{
+    width: 30%;
+    height: 400px;
+    margin-top: 20px;
+    background: #e5e5e5;
+}
+.rightcentercenter .phrightcenter
+{
+    width: 90%;
+    height: 200px;
+    margin-left: 15px;
+}
+.phrightcenter > img
+{
+    width: 100%;
+    height: 100%;
+}
+.rightcentercenter .terightcenter
+{
+    width: 90%;
+    height: 70px;
+    margin-left: 15px;
+    background: white;
+}
+.terightcenter > p
+{
+    margin-left: 10px;
+}
+.body3 .bottomcenter
+{
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+.bottomcenter .bottomcenterleft
+{
+    width: 50%;
+    height: 430px;
+    background:#e5e5e5;
+    margin-top: 20px;
+}
+.bottomcenterleft > h2
+{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.bottomcenterleft > i
+{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 20pt;
+    color: #006699;
+}
+i:hover
+{
+    color: #72c8f1;
+}
+.bottomcenterleft .conbottomleft
+{
+    width: 95%;
+    height: 50px;
+    margin-left: 15px;
+    display: flex;
+}
+.conbottomleft .textfield
+{
+    width: 90%;
+    height: 100%;
+    display: inline-block;
+}
+.textfield > input
+{
+    width: 95%;
+    height: 24px;
+    margin: 1px;
+    border: black 1px solid;
+}
+.textfield > i
+{
+    font-size: 14pt;
+    color: #006699;
+    cursor: pointer;
+}
+.conbottomleft .replacetext
+{
+    width: 10%;
+    height: 100%;
+    display: inline-block;
+}
+.replacetext > i 
+{
+    font-size: 20pt;
+    color: #006699;
+    margin: 10px;
+    cursor: pointer;
+}
+i:hover
+{
+    color: #72c8f1;
+}
+.bottomcenter .bottomcenterright
+{
+    width: 50%;
+    height: 430px;
+    background:#e5e5e5;
+    margin-top: 20px;
+}
+.bottomcenterright > h2
+{
+    margin-left: 15px;
+}
+.bottomcenterright .imgbottomright
+{
+    margin-left: 15px;
+    width: 95%;
+    height: 360px;
+}
+.imgbottomright > img
+{
+    width: 100%;
+height: 100%;
+}
+.imgbottomright .frontlink
+{
+    width: 30%;
+    height: 100px;
+    background: white;
+    position: absolute;
+    top: 2120px;
+}
+.frontlink > b
+{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+.frontlink > i
+{
+    margin-left: 15px;
+    color: #006699;
+}.frontlink > span
+{
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+}
+span:hover
+{
+    color: #006699;
+}
+/*------------------------------------------------Finsh body3-------------------------------------*/
+.body4
+{
+    width: 100%;
+    height: 200px;
+    background: white;
+}
+.body4 .text4
+{
+    font-size: 20pt;
+}
+.body4 .icon4
+{
+    font-size: 17pt;
+    margin-left: 40px;
+    color: #006699;
+}
+.icon4:hover
+{
+    color: #72c8f1;
+}
+/*------------------------------------------------Finsh body4-------------------------------------*/
+.futer
+{
+    width: 100%;
+    height: 330px;
+    background: #748089;
+    position: relative;
+}
+.futer .cont1
+{
+    width: 60%;
+    height: 260px;
+    display: inline-block;
+    position: absolute;
+}
+.cont1 .top
+{
+    width: 98%;
+    height: 50px;
+    font-size: 18pt;
+    margin-left: 10px;
+    color: white;
+}
+.cont1 .left
+{
+    width: 30%;
+    height: 209px;
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+    overflow: hidden;
+}
+.left .items
+{
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.futer .cont2
+{
+    width: 39.5%;
+    height: 260px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 60%;
+}
+.cont2 .top
+{
+    width: 80%;
+    height: 50px;
+    font-size: 18pt;
+    margin-left: 50px;
+    color: white;
+}
+.cont2 .right
+{
+    width: 70%;
+    height: 150px;
+    background: grey;
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    overflow: hidden;
+    margin-left: 30px;
+}
+.cont2 .img
+{
+    width: 40%;
+    height: 50%;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 0px;
+    position: absolute;
+}
+.img > img
+{
+    width: 100%;
+    height: 100%;
+}
+.cont2 .Text
+{
+    width: 40%;
+    height: 50%;
+    background: white;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 260px;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+}
+.Text:hover
+{color: #006699;}
+.Text > h3
+{
+    margin-left: 13px;
+    margin-top: 25px;
+    font-size: 15pt;
+    color: black;
+}
+.Text > i
+{
+    margin-left: 15px;
+    font-size: 13pt;
+    color: #006699;
+}
+.cont2 .kingitems
+{
+    position: absolute;
+    margin-top: 270px;
+}
+.kingitems > ul > li
+{
+    float: left;
+    margin-top: 270px;
+}
+.kingitems .items
+{
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+/*------------------------------------------------Finsh futer-------------------------------------*/

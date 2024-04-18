@@ -1,0 +1,627 @@
+*
+            {
+                margin: 0px;
+                padding: 0px;
+            }
+            /*---------------------start hider----------------------------*/
+            .king
+            {
+                width: 100%;
+                height: 100px;
+                position: fixed;
+                left: 0px;
+                top: 0px;
+                border-top: 0px;
+                z-index: 100;
+                background: white;
+                box-shadow:0px .5px 4px gray;
+            }
+            .king .inking1
+            {
+                background: white;
+                width: 9.5%;
+                height: 100px;
+                float: left;
+            }
+            .toprightking
+            {
+                width: 90%;
+                height: 49px;
+                float: right;
+                border-bottom: gray 1.9px solid;
+                background: white;
+            }
+            .toprightking .i1
+            {
+                font-size: 15px;
+                margin-top: 17px;
+                margin-left: 3px;
+            }
+            .toprightking .i2
+            {
+                font-size: 15px;
+                margin-top: 17px;
+                margin-left: 3px;
+                color: #006699;
+            }
+            .flag
+            {
+                color: #006699;
+                margin-left: 500px;
+            }
+            .divv
+            {
+                width: 90.5%;
+                height: 49px;
+                display: inline-block;
+                
+                position: relative;
+                background: white;
+            }
+            .divv > ul
+            {
+                margin: 0px;
+                padding: 0px;
+                float: left;
+                list-style-type: none;
+            }
+            .divv > ul > li
+            {
+                float: left;
+            }
+            .item
+            {
+                display: inline-block;
+                padding: 13px 18px;
+                height: 23px;
+                line-height: 23px;
+                text-decoration: none;
+                position: relative;
+                z-index: 1;
+            }
+            .item:focus
+            {
+                color: #006699;
+            }
+            .item a
+            {
+                text-decoration: none;
+                color: black;
+            }
+            .item a:hover
+            {
+                color: #006699;
+            }
+            
+            .sub-content
+            {
+                position: absolute;
+                padding-top: 60px;
+                overflow: hidden;
+                width: 100%;
+                visibility: hidden;
+                
+                background: white;
+            }
+            .sub-content .suub
+            {
+                float: right;
+                width: 68%;
+                height: 290px;
+                border-left:1px solid gray;
+            }
+            .sub-content .itemm
+            {
+                width: 30%;
+                padding: 10px;
+                
+            }
+            .itemm:hover
+            {
+                background: #006699;
+            }
+            .sub-content a
+            {
+                color: black;
+                text-decoration: none;
+            }
+            .sub-content a:hover
+            {
+                color: white;
+            }
+            .exit
+            {
+                float: right;
+                color: #006699;
+                margin-right: 7px;
+                font-size: 25px;
+            }
+            .exit:hover
+            {
+                color: #72c8f1;
+            }
+            .shm
+            {
+                margin-left: 265px;
+                color: #006699;
+                font-size: 19px;
+            }
+            .shm:hover
+            {
+                color: #72c8f1;
+            }
+            .kgdwal
+            {
+                float: right;
+                border-left: 1px solid gray;
+                margin-right: 380px;
+                width: 35%;
+                height: 100%;
+                text-decoration: none;
+                overflow: hidden;
+                display: none;
+            }
+            .sub-content .gdwal
+            {
+                width: 100%;
+                padding: 10px;
+                padding-left: 10px;
+            }
+            .gdwal:hover
+            {
+                background: #006699;
+            }
+            /*---------------------finish hider----------------------------*/
+            .body1
+            {
+                width: 100%;
+                height: 410px;
+                /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+64,7db9e8+100 */
+background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 64%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 64%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 64%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+            }
+            .diviconexit
+            {
+                width: 100%;
+                height: 20px;
+            }
+            .diviconexit .exit
+            {
+                float: right;
+                color: #006699;
+                margin-right: 7px;
+                font-size: 20px;
+            }
+            .exit:hover
+            {
+                color: #72c8f1;
+            }
+            .body1 .leftbody1
+            {
+                width: 54.5%;
+                height: 390px;
+                float: left;
+            }
+            .leftbody1 > h1
+            {
+                margin-left: 15px;
+                color: white;
+            }
+            .leftbody1 > h3
+            {
+                margin-left: 15px;
+                color: white;
+            }
+            .leftbody1 > h3 > a
+            {
+                color: white;
+            }
+            a:hover
+            {text-decoration: none;}
+            .body1 .rightbody1
+            {
+                width: 45%;
+                height: 390px;
+                float: right;
+            }
+            .rightbody1 > h2
+            {
+                color: white;
+            }
+            .rightbody1 > h3 > a
+            {
+                color: white;
+            }
+            a:hover
+            {text-decoration: none;}
+            /*---------------------finish body1----------------------------*/
+            .body2
+            {
+                width: 100%;
+                height: 150px;
+                background: white;
+            }
+            .body2 .text
+            {
+                font-size: 30pt;
+            }
+            .body2 .link
+            {
+                text-decoration: none;
+                color: black;
+            }
+            .link:hover
+            {color: #006699;}
+            .body2 .link2
+            {
+                text-decoration: none;
+                color: black;
+                margin-left: 32px;
+            }
+            .link2:hover
+            {color: #006699;}
+            .body2 .shmbody1
+            {
+                position: absolute;
+                font-size: 15pt;
+                margin-left: 15px;
+                color: gray;
+            }
+            /*------------------------------------------------Finsh body2-------------------------------------*/
+            .body3
+            {
+                width: 100%;
+                height: 2850px;
+                background: #e5e5e5;
+            }
+            .body3 .subbody3
+            {
+                width: 100%;
+                height: 15px;
+            }
+            .body3 .textbody3
+            {
+                width: 100%;
+                height: 43px;
+                
+            }
+            .textbody3 > h1
+            {
+                margin-left: 20px;
+            }
+            .body3 .inpbody3
+            {
+                width: 100%;
+                height: 40px;
+            }
+            .inpbody3 > input
+            {
+                width: 96.5%;
+                height: 30px;
+                margin-left: 20px;
+            }
+            .content1
+            {
+                width: 100%;
+                height: 130px;
+            }
+            .content1 .link1content1
+            {
+                width: 30%;
+                height: 95%;
+                background: white;
+                margin-left: 1.5%;
+                display: inline-block;
+            }
+            .link1content1 .imglink1con1
+            {
+                width: 40%;
+                height: 100%;
+                display: inline-block;
+            }
+            .imglink1con1 > img
+            {
+                width: 100%;
+                height: 100%;
+            }
+            .link1content1 .textlink1con1
+            {
+                width: 40%;
+                height: 100%;
+                display: inline-block;
+                position: relative;
+            }
+            .textlink1con1 > h3
+            {
+                position: absolute;
+                margin-left: 40px;
+                margin-top: 50px;
+                color: black;
+            }
+            h3:hover
+            {
+                color: #006699;
+            }
+            .link1content1 .iconlink1con1
+            {
+                width: 18%;
+                height: 100%;
+                display: inline-block;
+            }
+            .iconlink1con1 > i
+            {
+                position: absolute;
+                font-size: 20px;
+                margin-top: 50px;
+                margin-left: 25px;
+                color: #006699;
+            }
+            i:hover
+            {
+                color: #72c8f1;
+            }
+
+
+            .content1 .link2content1
+            {
+                width: 30%;
+                height: 95%;
+                background: white;
+                margin-left: 3%;
+                display: inline-block;
+            }
+            .link2content1 .imglink2con1
+            {
+                width: 40%;
+                height: 100%;
+                display: inline-block;
+            }
+            .imglink2con1 > img
+            {
+                width: 100%;
+                height: 100%;
+            }
+            .link2content1 .textlink2con1
+            {
+                width: 40%;
+                height: 100%;
+                display: inline-block;
+                position: relative;
+            }
+            .textlink2con1 > h3
+            {
+                position: absolute;
+                margin-left: 40px;
+                margin-top: 50px;
+                color: black;
+            }
+            h3:hover
+            {
+                color: #006699;
+            }
+            .link2content1 .iconlink2con1
+            {
+                width: 18%;
+                height: 100%;
+                display: inline-block;
+            }
+            .iconlink2con1 > i
+            {
+                position: absolute;
+                font-size: 20px;
+                margin-top: 50px;
+                margin-left: 25px;
+                color: #006699;
+            }
+            i:hover
+            {
+                color: #72c8f1;
+            }
+
+
+            .content1 .link3content1
+            {
+                width: 30%;
+                height: 95%;
+                background: white;
+                margin-left: 3%;
+                display: inline-block;
+            }
+            .link3content1 .imglink3con1
+            {
+                width: 40%;
+                height: 100%;
+                display: inline-block;
+            }
+            .imglink3con1 > img
+            {
+                width: 100%;
+                height: 100%;
+            }
+            .link3content1 .textlink3con1
+            {
+                width: 40%;
+                height: 100%;
+                display: inline-block;
+                position: relative;
+            }
+            .textlink3con1 > h3
+            {
+                position: absolute;
+                margin-left: 40px;
+                margin-top: 50px;
+                color: black;
+            }
+            h3:hover
+            {
+                color: #006699;
+            }
+            .link3content1 .iconlink3con1
+            {
+                width: 18%;
+                height: 100%;
+                display: inline-block;
+            }
+            .iconlink3con1 > i
+            {
+                position: absolute;
+                font-size: 20px;
+                margin-top: 50px;
+                margin-left: 25px;
+                color: #006699;
+            }
+            i:hover
+            {
+                color: #72c8f1;
+            }
+            /*------------------------------------------------Finsh body3-------------------------------------*/
+            .body4
+            {
+                width: 100%;
+                height: 200px;
+                background: white;
+            }
+            .body4 .text4
+            {
+                font-size: 20pt;
+            }
+            .body4 .icon4
+            {
+                font-size: 17pt;
+                margin-left: 40px;
+                color: #006699;
+            }
+            .icon4:hover
+            {
+                color: red;
+            }
+            /*------------------------------------------------Finsh body4-------------------------------------*/
+            .futer
+            {
+                width: 100%;
+                height: 330px;
+                background: #748089;
+                position: relative;
+            }
+            .futer .cont1
+            {
+                width: 60%;
+                height: 260px;
+                display: inline-block;
+                position: absolute;
+            }
+            .cont1 .top
+            {
+                width: 98%;
+                height: 50px;
+                font-size: 18pt;
+                margin-left: 10px;
+                color: white;
+            }
+            .cont1 .left
+            {
+                width: 30%;
+                height: 209px;
+                display: inline-block;
+                margin-left: 10px;
+                text-decoration: none;
+                overflow: hidden;
+            }
+            .left .items
+            {
+                display: inline-block;
+                padding: 15px;
+                color: white;
+                text-decoration: none;
+            }
+            .futer .cont2
+            {
+                width: 39.5%;
+                height: 260px;
+                display: inline-block;
+                position: absolute;
+                margin-left: 60%;
+            }
+            .cont2 .top
+            {
+                width: 80%;
+                height: 50px;
+                font-size: 18pt;
+                margin-left: 50px;
+                color: white;
+            }
+            .cont2 .right
+            {
+                width: 70%;
+                height: 150px;
+                background: grey;
+                display: inline-block;
+                margin-top: 30px;
+                text-decoration: none;
+                overflow: hidden;
+                margin-left: 30px;
+            }
+            .cont2 .img
+            {
+                width: 40%;
+                height: 50%;
+                display: inline-block;
+                margin-top: 30px;
+                margin-left: 50px;
+                padding: 0px;
+                position: absolute;
+            }
+            .img > img
+            {
+                width: 100%;
+                height: 100%;
+            }
+            .cont2 .Text
+            {
+                width: 40%;
+                height: 50%;
+                background: white;
+                display: inline-block;
+                margin-top: 30px;
+                margin-left: 260px;
+                position: absolute;
+                color: black;
+                text-decoration: none;
+            }
+            .Text:hover
+            {color: #006699;}
+            .Text > h3
+            {
+                margin-left: 13px;
+                margin-top: 25px;
+                font-size: 15pt;
+                color: black;
+            }
+            .Text > i
+            {
+                margin-left: 15px;
+                font-size: 13pt;
+                color: #006699;
+            }
+            .cont2 .kingitems
+            {
+                position: absolute;
+                margin-top: 270px;
+            }
+            .kingitems > ul > li
+            {
+                float: left;
+                margin-top: 270px;
+            }
+            .kingitems .items
+            {
+                display: inline-block;
+                padding: 15px;
+                color: white;
+                text-decoration: none;
+            }
+            /*------------------------------------------------Finsh futer-------------------------------------*/
